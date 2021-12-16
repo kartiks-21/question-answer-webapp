@@ -59,7 +59,7 @@ module.exports.create = function(req, res){
             // once inserted then trigger the sendgrid to send the mail
                     const msg = {
                         to: post.email, // Change to your recipient
-                        from: 'projectmailer.tester@gmail.com', // Change to your verified sender
+                        from: 'YOUR_MAIL', // Change to your verified sender
                         subject: 'Welcome to NITC Query Website - Verify your Email',
                         text: `Hello Thanks to reqister to our website.
                         Please copy and paste the address below to verify your account.
