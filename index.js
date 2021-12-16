@@ -20,7 +20,7 @@ const passportLocal = require('./config/passport-local-strategy');
 // import sendgrid amiling engine
 const sgMail = require('@sendgrid/mail');
 // sendgrid api key for the connection validation
-sgMail.setApiKey('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');
+sgMail.setApiKey('API_KEY');
 // import crypto to generate the encryptted unique keys
 const crypto = require('crypto');
 // import flash to store the flash messages
